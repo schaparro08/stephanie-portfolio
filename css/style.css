@@ -49,7 +49,7 @@ a{
     justify-content: center;
     width: 25%;
     height: 300px;
-    font-size: 40px;
+    font-size: 20px;
     margin-left: -195px;
     text-align: right;
 }
@@ -60,7 +60,7 @@ a{
     justify-content: center;
     width: 25%;
     height: 1000px;
-    font-size: 60px;
+    font-size: 20px;
 }
 
 .projects{
@@ -82,6 +82,8 @@ a{
     flex-direction: row;
     margin-left: -1.5rem ;
     margin-right:-1.5rem ;
+    position: relative;
+  
 }
 
 .p2,
@@ -95,4 +97,47 @@ a{
     display: flex;
     justify-content: center;
     margin-left: 100px;
+    
+}
+
+figcaption {
+ position:absolute;
+  bottom: 20px;
+  right: 50px;
+  background-color: burlywood;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.box3{
+    border-right: 10px solid #8b4513;
+    display:flex;
+    justify-content: center;
+    width: 25%;
+    height: 300px;
+    font-size: 20px;
+    margin-left: -195px;
+    text-align: right;
+}
+
+.bottomnav {
+display: flex;
+justify-content: right;
+padding:30px;
+font-size: 25px;
+list-style: none;
+}
+
+h4{
+    text-align: center;
+    color: antiquewhite;
+    font-weight: 600;
+    font-size: xx-large;
+
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
 }
