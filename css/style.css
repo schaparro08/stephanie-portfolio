@@ -44,23 +44,35 @@ a{
  }
 
 .aboutme{ 
+    
     display:flex;
-    justify-content: center;}
+    justify-content: center;
+    flex-flow: row;
+}
 
 .box1{
+
+    display:flex;
+    flex-direction: row;
     border-right: 10px solid #8b4513;
-    width: 25%;
+    width: 8.5%;
     height: 300px;
     font-size: 20px;
-    margin-left: -195px;
+    margin-left: -93px;
     text-align: right;
 }
 
 .box2{
     border-right: 10px solid #8b4513;
+    margin-top: 50px;
     width: 25%;
     height: 1000px;
     font-size: 20px;
+}
+
+.box2 h1{
+    margin-left: 250px;
+
 }
 
 .projects{
@@ -81,6 +93,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-top: 50px;
     margin-left: -1.5rem ;
     margin-right:-1.5rem ;
     position: relative;
