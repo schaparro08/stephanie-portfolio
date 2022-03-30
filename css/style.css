@@ -236,3 +236,16 @@ main{
     flex-wrap: wrap;
 } 
 
+/* Cards are split into two columns at 992px or smaller */
+@media screen and (max-width: 992px) {
+    .projects {
+      width: 50%;
+    }
+    
+  
+  /* Cards are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    .projects {
+      width: 100%;
+    }
+    
