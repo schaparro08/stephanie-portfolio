@@ -12,6 +12,9 @@ body{
     background-color: #D3E4CD;
 }
 
+
+
+
 .topnav ul{
     display: flex;
     justify-content: right;
@@ -37,6 +40,7 @@ a{
      width:100%;
      height: 150px;
      margin-bottom: 10px;
+    
  }
  .topimage img{
      width: 100%;
@@ -93,7 +97,7 @@ font-size: 30px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 50px;
     margin-left: -1.5rem ;
     margin-right:-1.5rem ;
@@ -102,7 +106,7 @@ font-size: 30px;
 }
 
 .picture1{
-    margin-left: 200px;
+    margin-left: 470px;
     background-image:url(../images/agata-create-kGXST_-n36w-unsplash.jpg);
     z-index: 1;
     height: 470px;
@@ -112,12 +116,27 @@ font-size: 30px;
     font-size: xx-large;
    
 }
+.picture1:hover{
+    box-shadow:10px 10px 10px #146356;
+}
 
-.middlepics{
+.middlepics1{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 500px;
 }
+
+.middlepics2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 500px;
+
+}
+
 
 .picture2{
     background-image: url(../images/bernard-hermant-X-Bu9X6gok0-unsplash.jpg);
@@ -128,12 +147,20 @@ font-size: 30px;
     color:#519259;
     font-size: xx-large;
 }
+
+.picture2:hover{
+    box-shadow:10px 10px 10px #146356;
+}
+
 .picture3{
     background-image: url(../images/dylan-leagh-JYMthEAW4OM-unsplash.jpg);
     height: 370px;
     width: 800px;
     color:#519259;
     font-size: xx-large;
+}
+.picture3:hover{
+    box-shadow:10px 10px 10px #146356;
 }
 .picture4{
     background-image: url(../images/julen-rey-azcona-22JFUD6NTgs-unsplash.jpg);
@@ -145,6 +172,9 @@ font-size: 30px;
     font-size: xx-large;
 
 }
+.picture4:hover{
+    box-shadow:10px 10px 10px #146356;
+}
 .picture5{
     background-image: url(../images/mathilde-langevin-LdPzzJcrPLM-unsplash.jpg);
     height: 370px;
@@ -152,6 +182,9 @@ font-size: 30px;
     color:#519259;
     font-size: xx-large;
 } 
+.picture5:hover{
+    box-shadow:10px 10px 10px #146356;
+}
 
 
 
@@ -163,22 +196,31 @@ display: flex;
 justify-content: center;
 font-size: 30px;
 }
+
 #contactme{
     display:flex;
+    flex-flow: row;
     flex-wrap: wrap;
     border: 5px solid #ADC2A9;
     margin-bottom: 20px;
 }
 
-.bottomnav ul {
+.bottomnav {
 display: flex;
-justify-content:right;
+justify-content:space-around;
 padding-right:30px;
 font-size: 25px;
-list-style:square;
 margin-left: 500px;
 color: black;
+list-style: none;
 }
+
+.bottomnav ul li{
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
 
 
 h4{
