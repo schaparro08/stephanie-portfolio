@@ -92,6 +92,7 @@ font-size: 30px;
 
 .comingsoon{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 50px;
@@ -101,31 +102,32 @@ font-size: 30px;
   
 }
 
-.p2,
-.p3,
-.p4,
-.p5
-{
-    height: 300px;
-    width: 33%;
-    padding:20px;
-    display: flex;
-    justify-content: center;
-    margin-left: 100px;
-    
+.picture1{
+    margin-left: 200px;
+    border: 5px solid black;
+    background-image:url(../images/agata-create-kGXST_-n36w-unsplash.jpg);
+    z-index: 1;
+    height: 370px;
+    width: 800px;
+    margin-bottom: 800px;
+   
 }
 
-figcaption {
- position:absolute;
-  bottom: 20px;
-  right: 50px;
-  background-color: burlywood;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  z-index: 100;
-
+.middlepics
+/* .picture2{
+    background-image: url(../images/bernard-hermant-X-Bu9X6gok0-unsplash.jpg);
 }
+.picture3{
+    background-image: url(../images/dylan-leagh-JYMthEAW4OM-unsplash.jpg);
+}
+.picture4{
+    background-image: url(../images/julen-rey-azcona-22JFUD6NTgs-unsplash.jpg);
+}
+.picture5{
+    background-image: url(../images/mathilde-langevin-LdPzzJcrPLM-unsplash.jpg);
+}
+
+
 
 .box3{
     border-right: 10px solid #8b4513;
@@ -156,7 +158,5 @@ h4{
 main{
     display: flex;
     flex-wrap: wrap;
-}
-.homework1{
-    background-image: url(../images/agata-create-kGXST_-n36w-unsplash.jpg);
-}
+} 
+
